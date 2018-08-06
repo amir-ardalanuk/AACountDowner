@@ -1,0 +1,11 @@
+framework module AACountDowner {
+  umbrella header "AACountDowner.h"
+
+  export *
+  module * { export * }
+}
+
+module AACountDowner.Swift {
+    header "AACountDowner-Swift.h"
+    requires objc
+}

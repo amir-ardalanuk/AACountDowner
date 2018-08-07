@@ -17,26 +17,34 @@ pod 'AACountDowner'
 
 ## init
 first : 
-```
+```swift
 @IBOutlet weak var vwCountDowner: AACountDowner!
 ```
 next : 
-```
+```swift
 vwCountDowner.config(days: 1, hour: 1, minute: 1, second: 5)
 ```
 or you can User ``Date`` but sure date is bigger than now
-```
+```swift
 let date = Date()
 vwCountDowner.config(withDate: date)
 ```
 ## Style
+
 #### Visibility :
-``vwCountDowner.Visiblity(forDay: true, hour: true, minute: true, seconds: true)``
+```swift
+vwCountDowner.Visiblity(forDay: true, hour: true, minute: true, seconds: true)
+```
+
 #### Ui option : 
-```vwCountDowner.uiOption(haveShadow: true, background: UIColor.lightGray, radius: 5)```
+```swift
+vwCountDowner.uiOption(haveShadow: true, background: UIColor.lightGray, radius: 5)
+```
 _please! if you need more options , tell to me_
 ##### font :
-``` vwCountDowner.font = UIFont(name: "Verdana", size: 16)```
+```swift
+vwCountDowner.font = UIFont(name: "Verdana", size: 16)
+```
 
 
 ## License

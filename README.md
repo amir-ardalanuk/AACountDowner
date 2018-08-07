@@ -6,7 +6,7 @@ Cool CountDowner !
    - Xcode 8.1+
    - Swift 3.0+
 
-### Install
+## Install
 
 you can use in cocoapods
 ```swift
@@ -15,7 +15,7 @@ pod 'AACountDowner'
 
 ![](https://github.com/amir-ardalanuk/AACountDowner/blob/master/CountDowner.gif)
 
-### init
+## init
 first : 
 ```
 @IBOutlet weak var vwCountDowner: AACountDowner!

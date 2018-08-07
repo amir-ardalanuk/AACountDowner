@@ -14,6 +14,7 @@ pod 'AACountDowner'
 ```
 
 ![](https://github.com/amir-ardalanuk/AACountDowner/blob/master/CountDowner.gif)
+![](https://github.com/amir-ardalanuk/AACountDowner/blob/master/IMG_1291.jpg)
 
 ## init
 first : 

@@ -13,3 +13,32 @@ you can use in cocoapods
 pod 'AACountDowner'
 ```
 
+![](https://github.com/amir-ardalanuk/AACountDowner/blob/master/CountDowner.gif)
+
+### init
+first : 
+```
+@IBOutlet weak var vwCountDowner: AACountDowner!
+```
+next : 
+```
+vwCountDowner.config(days: 1, hour: 1, minute: 1, second: 5)
+```
+or you can User ``Date`` but sure date is bigger than now
+```
+let date = Date()
+vwCountDowner.config(withDate: date)
+```
+## Style
+#### Visibility :
+``vwCountDowner.Visiblity(forDay: true, hour: true, minute: true, seconds: true)``
+#### Ui option : 
+```vwCountDowner.uiOption(haveShadow: true, background: UIColor.lightGray, radius: 5)```
+_please! if you need more update tell to me_
+##### font :
+``` vwCountDowner.font = UIFont(name: "Verdana", size: 16)```
+
+
+## License
+
+AACountDowner is available under the MIT license. See the LICENSE file for more information.

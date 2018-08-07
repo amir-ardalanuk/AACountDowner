@@ -34,7 +34,7 @@ vwCountDowner.config(withDate: date)
 ``vwCountDowner.Visiblity(forDay: true, hour: true, minute: true, seconds: true)``
 #### Ui option : 
 ```vwCountDowner.uiOption(haveShadow: true, background: UIColor.lightGray, radius: 5)```
-_please! if you need more update tell to me_
+_please! if you need more options , tell to me_
 ##### font :
 ``` vwCountDowner.font = UIFont(name: "Verdana", size: 16)```
 

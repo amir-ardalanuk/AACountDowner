@@ -17,10 +17,11 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         aaVC.config(days: 0, hour: 1, minute: 2, second: 3)
-        aaVC.Visiblity(forDay: false, hour: true, minute: true, seconds: true)
+        aaVC.Visiblity(forDay: false, hour: false, minute: true, seconds: true)
         aaVC.uiOption(haveShadow: true, background: UIColor.yellow, radius: 5)
         aaVC.Titles(forDay: "DAy", hour: "Hour", minute: "Minute", seconds: "Seconds")
         aaVC.font = UIFont(name: "Verdana", size: 16)
+        aaVC.isTitleVisible = false
     }
 
     override func didReceiveMemoryWarning() {

@@ -19,10 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uD9-mb-rXq" customClass="AACountDowner" customModule="AACountDowner">
-                                <rect key="frame" x="12" y="32" width="351" height="100"/>
+                                <rect key="frame" x="12" y="32" width="130" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="wrF-T9-q0O"/>
+                                    <constraint firstAttribute="width" constant="130" id="Yob-A2-u4m"/>
+                                    <constraint firstAttribute="height" constant="60" id="wrF-T9-q0O"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By : Amir Ardalan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpG-wM-Tyk">
@@ -38,7 +39,6 @@
                             <constraint firstItem="uD9-mb-rXq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="TAc-ku-fQm"/>
                             <constraint firstItem="UpG-wM-Tyk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mXY-7P-cIm"/>
                             <constraint firstItem="uD9-mb-rXq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="nPo-TA-Uye"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uD9-mb-rXq" secondAttribute="trailing" constant="12" id="wHp-qi-Yqy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

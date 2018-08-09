@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F421F6D82118649500B9FD91 /* AACountDowner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F421F6D72118649500B9FD91 /* AACountDowner.framework */; };
+		F46366C5211BEA3000AB1CF7 /* AACountDowner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46366C4211BEA3000AB1CF7 /* AACountDowner.framework */; };
+		F46366C6211BEA3000AB1CF7 /* AACountDowner.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F46366C4211BEA3000AB1CF7 /* AACountDowner.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F4C0FFC621182B2C00F9CC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FFC521182B2C00F9CC93 /* AppDelegate.swift */; };
 		F4C0FFC821182B2C00F9CC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C0FFC721182B2C00F9CC93 /* ViewController.swift */; };
 		F4C0FFCB21182B2C00F9CC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C0FFC921182B2C00F9CC93 /* Main.storyboard */; };
@@ -16,12 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F421F6CE211862C900B9FD91 /* Embed Frameworks */ = {
+		F46366C7211BEA3000AB1CF7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				F46366C6211BEA3000AB1CF7 /* AACountDowner.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,7 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F421F6D72118649500B9FD91 /* AACountDowner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AACountDowner.framework; sourceTree = "<group>"; };
+		F46366C4211BEA3000AB1CF7 /* AACountDowner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AACountDowner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C0FFC221182B2C00F9CC93 /* AmirFarhadSina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmirFarhadSina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C0FFC521182B2C00F9CC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C0FFC721182B2C00F9CC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F421F6D82118649500B9FD91 /* AACountDowner.framework in Frameworks */,
+				F46366C5211BEA3000AB1CF7 /* AACountDowner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +56,7 @@
 		F4C0FFB921182B2C00F9CC93 = {
 			isa = PBXGroup;
 			children = (
+				F46366C4211BEA3000AB1CF7 /* AACountDowner.framework */,
 				F4C0FFC421182B2C00F9CC93 /* AmirFarhadSina */,
 				F4C0FFC321182B2C00F9CC93 /* Products */,
 				F4C0FFDF21182C5100F9CC93 /* Frameworks */,
@@ -71,7 +74,6 @@
 		F4C0FFC421182B2C00F9CC93 /* AmirFarhadSina */ = {
 			isa = PBXGroup;
 			children = (
-				F421F6D72118649500B9FD91 /* AACountDowner.framework */,
 				F4C0FFC521182B2C00F9CC93 /* AppDelegate.swift */,
 				F4C0FFC721182B2C00F9CC93 /* ViewController.swift */,
 				F4C0FFC921182B2C00F9CC93 /* Main.storyboard */,
@@ -99,7 +101,7 @@
 				F4C0FFBE21182B2C00F9CC93 /* Sources */,
 				F4C0FFBF21182B2C00F9CC93 /* Frameworks */,
 				F4C0FFC021182B2C00F9CC93 /* Resources */,
-				F421F6CE211862C900B9FD91 /* Embed Frameworks */,
+				F46366C7211BEA3000AB1CF7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

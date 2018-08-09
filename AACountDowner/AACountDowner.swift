@@ -26,6 +26,15 @@ public class AACountDowner : UIView {
         }
     }
     
+    public var isTitleVisible : Bool = true {
+        didSet{
+            dayTitle.isHidden = !isTitleVisible
+            hourTitle.isHidden = !isTitleVisible
+            minuteTitle.isHidden = !isTitleVisible
+            secondsTitle.isHidden = !isTitleVisible
+        }
+    }
+    
     @IBOutlet weak var secondStack: UIStackView!
     @IBOutlet weak var minuteStack: UIStackView!
     @IBOutlet weak var hourStack: UIStackView!
@@ -138,6 +147,9 @@ public class AACountDowner : UIView {
         }
     }
     
+    func titleStyle(visible : Bool){
+        
+    }
     
     private func textStyle(number : Int)-> (Int , Int){
         return (Int(number / 10 ) , Int(number % 10))
@@ -171,7 +183,7 @@ public class AACountDowner : UIView {
     }
     private func setDataOnComponent(){
         for (index , key) in mainStack.subviews.enumerated() {
-            let chStack = key.subviews[1] as! UIStackView
+            guard let chStack = key.subviews[1] as? UIStackView else {return}
             switch index {
             case 0: setData(stack: chStack, number: d)
             case 1:  setData(stack: chStack, number: h)

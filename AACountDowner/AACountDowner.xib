@@ -37,25 +37,25 @@
                         <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vE2-HU-PB3">
                             <rect key="frame" x="9" y="0.0" width="387" height="79"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QFh-zp-q1Y">
+                                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QFh-zp-q1Y">
                                     <rect key="frame" x="0.0" y="0.0" width="387" height="79"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mFc-kA-xZe">
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="mFc-kA-xZe">
                                             <rect key="frame" x="0.0" y="0.0" width="91" height="79"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="روز" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqr-kl-DtB">
-                                                    <rect key="frame" x="0.0" y="0.0" width="91" height="35.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="91" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="753" verticalCompressionResistancePriority="753" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="fqf-ff-7at">
-                                                    <rect key="frame" x="0.0" y="35.5" width="91" height="43.5"/>
+                                                    <rect key="frame" x="0.0" y="22" width="91" height="43.5"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6sK-28-78U" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="44" height="43.5"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfi-sb-mq6">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Nfi-sb-mq6">
                                                                     <rect key="frame" x="0.5" y="0.0" width="44" height="43.5"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
@@ -76,7 +76,7 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWQ-Ie-KMV" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
                                                             <rect key="frame" x="47" y="0.0" width="44" height="43.5"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adK-Kb-coo">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="adK-Kb-coo">
                                                                     <rect key="frame" x="2.5" y="2" width="40" height="39.5"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
@@ -94,25 +94,29 @@
                                                         </view>
                                                     </subviews>
                                                 </stackView>
+                                                <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="wAS-ax-LX7">
+                                                    <rect key="frame" x="0.0" y="71.5" width="91" height="7.5"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8uF-2x-lyd">
-                                            <rect key="frame" x="99" y="0.0" width="90.5" height="79"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="8uF-2x-lyd">
+                                            <rect key="frame" x="99" y="0.0" width="96" height="79"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ساعت" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UqK-qz-RNx">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90.5" height="35"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="96" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="753" verticalCompressionResistancePriority="753" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="zqa-9P-X9Q">
-                                                    <rect key="frame" x="0.0" y="35" width="90.5" height="44"/>
+                                                    <rect key="frame" x="0.0" y="22" width="96" height="47"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rjE-Ws-vsq" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="43.5" height="44"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="46.5" height="47"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgs-Qd-r8R">
-                                                                    <rect key="frame" x="0.5" y="0.5" width="43.5" height="43.5"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kgs-Qd-r8R">
+                                                                    <rect key="frame" x="0.5" y="0.5" width="46.5" height="46.5"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -130,10 +134,10 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Igt-Vj-msS" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
-                                                            <rect key="frame" x="46.5" y="0.0" width="44" height="44"/>
+                                                            <rect key="frame" x="49.5" y="0.0" width="46.5" height="47"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuw-9j-Jq4">
-                                                                    <rect key="frame" x="2" y="2.5" width="40.5" height="39.5"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kuw-9j-Jq4">
+                                                                    <rect key="frame" x="2" y="2.5" width="43" height="42.5"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -149,25 +153,29 @@
                                                         </view>
                                                     </subviews>
                                                 </stackView>
+                                                <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="dCD-DS-Gbq">
+                                                    <rect key="frame" x="0.0" y="75" width="96" height="4"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R0V-r9-oKn">
-                                            <rect key="frame" x="197.5" y="0.0" width="91" height="79"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="R0V-r9-oKn">
+                                            <rect key="frame" x="203" y="0.0" width="73" height="79"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="دقیقه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRe-Bn-hB0">
-                                                    <rect key="frame" x="0.0" y="0.0" width="91" height="35.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="73" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="753" verticalCompressionResistancePriority="753" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="cFj-OR-6Ql">
-                                                    <rect key="frame" x="0.0" y="35.5" width="91" height="43.5"/>
+                                                    <rect key="frame" x="0.0" y="22" width="73" height="34.5"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wPZ-qU-CNQ" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="44" height="43.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="35" height="34.5"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQf-o6-aAa">
-                                                                    <rect key="frame" x="0.0" y="0.5" width="44" height="43"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VQf-o6-aAa">
+                                                                    <rect key="frame" x="0.0" y="0.5" width="35" height="34"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -185,10 +193,10 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HXU-Gc-JcK" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
-                                                            <rect key="frame" x="47" y="0.0" width="44" height="43.5"/>
+                                                            <rect key="frame" x="38" y="0.0" width="35" height="34.5"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Re-SY-VPz">
-                                                                    <rect key="frame" x="2" y="2.5" width="40" height="39"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4Re-SY-VPz">
+                                                                    <rect key="frame" x="2" y="2.5" width="31" height="30"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -205,25 +213,29 @@
                                                         </view>
                                                     </subviews>
                                                 </stackView>
+                                                <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="dTT-9y-Sc8">
+                                                    <rect key="frame" x="0.0" y="62.5" width="73" height="16.5"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
                                             </subviews>
                                         </stackView>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qgM-sC-is1">
-                                            <rect key="frame" x="296.5" y="0.0" width="90.5" height="79"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="qgM-sC-is1">
+                                            <rect key="frame" x="284" y="0.0" width="103" height="79"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ثانیه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQ4-Au-30T">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90.5" height="34.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="103" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="753" verticalCompressionResistancePriority="753" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="hPA-ly-G6e">
-                                                    <rect key="frame" x="0.0" y="34.5" width="90.5" height="44.5"/>
+                                                    <rect key="frame" x="0.0" y="22" width="103" height="50"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPg-3X-KgJ" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="43.5" height="44.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcd-1f-uIe">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="43.5" height="44.5"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dcd-1f-uIe">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -244,10 +256,10 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zng-gi-4Nv" customClass="CustomView" customModule="AACountDowner" customModuleProvider="target">
-                                                            <rect key="frame" x="46.5" y="0.0" width="44" height="44.5"/>
+                                                            <rect key="frame" x="53" y="0.0" width="50" height="50"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D77-gG-yfv">
-                                                                    <rect key="frame" x="2.5" y="2" width="39.5" height="40.5"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="D77-gG-yfv">
+                                                                    <rect key="frame" x="2.5" y="2" width="45.5" height="46"/>
                                                                     <fontDescription key="fontDescription" name="BYekan" family="B Yekan" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -268,6 +280,10 @@
                                                         </view>
                                                     </subviews>
                                                 </stackView>
+                                                <view contentMode="scaleToFill" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="6yk-sB-iEr">
+                                                    <rect key="frame" x="0.0" y="78" width="103" height="1"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
                                             </subviews>
                                         </stackView>
                                     </subviews>

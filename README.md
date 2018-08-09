@@ -41,6 +41,10 @@ vwCountDowner.Visiblity(forDay: true, hour: true, minute: true, seconds: true)
 ```swift
 vwCountDowner.uiOption(haveShadow: true, background: UIColor.lightGray, radius: 5)
 ```
+##### header title inVisible / visible
+```swift
+vwCountDowner.isTitleVisible = false 
+```
 _please! if you need more options , tell to me_
 ##### font :
 ```swift

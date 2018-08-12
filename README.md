@@ -45,11 +45,19 @@ vwCountDowner.uiOption(haveShadow: true, background: UIColor.lightGray, radius: 
 ```swift
 vwCountDowner.isTitleVisible = false 
 ```
-_please! if you need more options , tell to me_
 ##### font :
 ```swift
 vwCountDowner.font = UIFont(name: "Verdana", size: 16)
 ```
+#### element space :
+```swift
+vwCountDowner.elementSpacing = 0
+```
+#### Dot Divider ``:`` :
+```swift
+vwCountDowner.hasDotDivider = false
+```
+_please! if you need more options , tell to me_        
 
 
 ## License

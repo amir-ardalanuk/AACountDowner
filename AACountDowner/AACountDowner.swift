@@ -14,6 +14,9 @@ public class AACountDowner : UIView {
         }
     }
     @IBOutlet weak var mainStack: UIStackView!
+    @IBOutlet weak var lblDayDot: UILabel!
+    @IBOutlet weak var lblhourDot: UILabel!
+    @IBOutlet weak var lblMinuteDot: UILabel!
     @IBOutlet weak var dayTitle: UILabel!
     @IBOutlet weak var hourTitle: UILabel!
     @IBOutlet weak var minuteTitle: UILabel!
@@ -32,6 +35,24 @@ public class AACountDowner : UIView {
             hourTitle.isHidden = !isTitleVisible
             minuteTitle.isHidden = !isTitleVisible
             secondsTitle.isHidden = !isTitleVisible
+        }
+    }
+    
+    public var elementSpacing : Int = 3 {
+        didSet{
+            for i in mainStack.subviews {
+                if i.subviews.count > 0 , let stack = i.subviews[1] as? UIStackView {
+                    stack.spacing = CGFloat(elementSpacing)
+                }
+            }
+        }
+    }
+    
+    public var hasDotDivider : Bool = true {
+        didSet{
+            self.lblDayDot.isHidden = !hasDotDivider
+            self.lblhourDot.isHidden = !hasDotDivider
+            self.lblMinuteDot.isHidden = !hasDotDivider
         }
     }
     
@@ -111,6 +132,9 @@ public class AACountDowner : UIView {
         hourStack.isHidden = !hour
         minuteStack.isHidden = !minute
         secondStack.isHidden = !seconds
+        lblDayDot.isHidden = !day
+        lblhourDot.isHidden = !hour
+        lblMinuteDot.isHidden = !minute
     }
     
     public func Titles(forDay day: String , hour : String , minute : String , seconds : String) {
@@ -145,6 +169,9 @@ public class AACountDowner : UIView {
                 label.font = font
             }
         }
+        self.lblDayDot.font = font
+        self.lblhourDot.font = font
+        self.lblMinuteDot.font = font
     }
     
     func titleStyle(visible : Bool){
@@ -183,7 +210,7 @@ public class AACountDowner : UIView {
     }
     private func setDataOnComponent(){
         for (index , key) in mainStack.subviews.enumerated() {
-            guard let chStack = key.subviews[1] as? UIStackView else {return}
+            guard key.subviews.count > 0, let chStack = key.subviews[1] as? UIStackView else {return}
             switch index {
             case 0: setData(stack: chStack, number: d)
             case 1:  setData(stack: chStack, number: h)

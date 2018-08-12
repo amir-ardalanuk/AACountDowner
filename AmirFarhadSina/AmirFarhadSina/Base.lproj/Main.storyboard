@@ -18,12 +18,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uD9-mb-rXq" customClass="AACountDowner" customModule="AACountDowner">
-                                <rect key="frame" x="12" y="32" width="130" height="60"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uD9-mb-rXq" customClass="AACountDowner" customModule="AACountDowner">
+                                <rect key="frame" x="12" y="32" width="120" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="Yob-A2-u4m"/>
-                                    <constraint firstAttribute="height" constant="60" id="wrF-T9-q0O"/>
+                                    <constraint firstAttribute="width" constant="120" id="Yob-A2-u4m"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By : Amir Ardalan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpG-wM-Tyk">
